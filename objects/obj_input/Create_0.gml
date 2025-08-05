@@ -1,0 +1,18 @@
+sus = 0;
+sec = 0.45;
+sac=0;
+image_alpha = 0;
+image_xscale = 0;
+
+if place_meeting(x, y, obj_note) {
+	image_index = 1;
+}
+else {
+	image_index = 2;
+}
+
+//input[0] = vk_left;
+//input[1] = vk_down;
+//input[2] = vk_up;
+//input[3] = vk_right;
+// (72+(40*line_spaces[0]+40)*lineyscale[0]) + (40*(inputboxline[1]-1))*lineyscale[1]

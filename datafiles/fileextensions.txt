@@ -1,0 +1,4 @@
+ALL FILES EXTENSIONS USED ON GAME:
+
+- DJBF = DJ Bunny File
+- DJBC = DJ Bunny Chart
