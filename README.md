@@ -10,6 +10,15 @@ Follow exactly the notes to get more points!
 - The MegaXEngine (or MXE) ✓
 **(used for the songs charts, stages, characters. Made to be highly customizable)**
 
+# MXE
+The highly customizable engine made for DJ Bunny The Rapper.
+**What can it Do?**
+- Songs;
+- Sounds;
+- Sprites;
+- Lua Support
+**How does it function?**
+
 # May Include on Future:
 - In-game __Chart__, __Stage__ and __Character__ Editor
 
