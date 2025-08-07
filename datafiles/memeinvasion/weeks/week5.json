@@ -1,0 +1,41 @@
+{
+	"storyName": "Covers",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "week3",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": false,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"Fight Or FLight",
+			"starved",
+			[
+				0,
+				0,
+				0
+			]
+		],
+		[
+			"Faker",
+			"sanic",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"hiddenUntilUnlocked": true,
+	"weekName": "Covers"
+}

@@ -48,6 +48,9 @@ alphaanim[2] = 0;
 alphaanim[3] = 0;
 alphaanim[4] = 0;
 
+sprite_index = sprite_add("mainfiles/spr_songbox.png", 1, false, false, 64, 64);
+spr_setas = sprite_add("mainfiles/spr_notes_normal.png", 4, false, false, 32, 32);
+spr_press = sprite_add("mainfiles/spr_inputs.png", 6, false, false, 32, 32);
 
 #region Inputs
 input[0] = vk_left;

@@ -1,0 +1,64 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		-610,
+		-710
+	],
+	"no_antialiasing": false,
+	"scale": 0.4,
+	"animations": [
+		{
+			"loop_name": "sanic up",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "sanic idle",
+			"anim": "up",
+			"loop_offsets": [
+				0,
+				4
+			]
+		},
+		{
+			"loop_name": "sanic down",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "sanic idle",
+			"anim": "down",
+			"loop_offsets": [
+				-10,
+				57
+			]
+		},
+		{
+			"loop_name": "sanic left",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "sanic idle",
+			"anim": "left",
+			"loop_offsets": [
+				10,
+				0
+			]
+		},
+		{
+			"loop_name": "sanic right",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "sanic idle",
+			"anim": "right",
+			"loop_offsets": [
+				-6,
+				0
+			]
+		}
+	],
+	"image": "sanic"
+}

@@ -5,6 +5,7 @@ secrt = 1;
 secrtsus = 0;
 image_alpha = 0;
 image_xscale = 1;
+sprite_index = sprite_add("mainfiles/spr_notes_normal.png", 1, false, false, 64, 64);
 
 //input[0] = vk_left;
 //input[1] = vk_down;

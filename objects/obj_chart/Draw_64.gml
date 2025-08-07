@@ -15,18 +15,17 @@ if start_animation = false {
 			}
 		}
 	}
-	
 	if instance_exists(obj_note) {
 		for (var i = 0; i < instance_number(obj_note); ++i) {
 			var input = instance_find(obj_note, i);
-			draw_sprite_ext(spr_setas, input.input, input.x, input.y, input.image_xscale, lineyscale[input.line], 0, c_white, image_alphaa);
+			draw_sprite_ext(spr_setas, input.input, input.x, input.y, input.image_xscale, lineyscale[input.line], 0, c_white, image_alphaa+0.5);
 		}
 	}
 	if instance_exists(obj_input) {
 		for (var i = 0; i < instance_number(obj_input); ++i) {
 			var input = instance_find(obj_input, i);
-			draw_sprite_ext(spr_setas, input.input, input.x, input.y, input.image_xscale, lineyscale[input.turn], 0, c_white, image_alphaa/1.5);
-			draw_sprite_ext(spr_press, input.image_index, input.x+24, input.y-24, -input.image_xscale/2, lineyscale[input.turn]/2, 20, c_white, image_alphaa);
+			draw_sprite_ext(spr_setas, input.input, input.x, input.y, input.image_xscale, lineyscale[input.turn], 0, c_white, image_alphaa+0.5);
+			draw_sprite_ext(spr_press, input.image_index, input.x+24, input.y-24, input.image_xscale/2, lineyscale[input.turn]/2, 20, c_white, image_alphaa+0.5);
 		}
 	}
 	

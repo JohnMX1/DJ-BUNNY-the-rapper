@@ -1,0 +1,46 @@
+{
+	"song": {
+		"events": [
+			[
+				0,
+				[
+					[
+						"Cutscene Bars Appear",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				9525,
+				[
+					[
+						"Cutscene Bars Appear",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				19200,
+				[
+					[
+						"Cutscene Bars Appear",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				24000,
+				[
+					[
+						"Cutscene Bars Appear",
+						"1",
+						""
+					]
+				]
+			]
+		]
+	}
+}

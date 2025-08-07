@@ -80,7 +80,7 @@ if stop = false {
 	if global.turn[0] = 1 and global.turn[1] = 0 {
 		tlineyscale[0] = 1;
 		tlineyscale[1] = 0.5;
-		inputboxx[0] += (time_bpm_to_seconds(global.bpm)*10)*(global.sngspeed*2);
+		inputboxx[0] += ((time_bpm_to_seconds(global.bpm)*10)*(global.sngspeed*2))//*(delta_time/1000000);
 		if inputboxx[0] > (64 * spaces[inputboxline[0]-1])+64 {
 			inputboxx[0] = 0;
 			if line_spaces[0] > 1 {
@@ -110,7 +110,7 @@ if stop = false {
 	else if global.turn[0] = 0 and global.turn[1] = 1 {
 		tlineyscale[0] = 0.5;
 		tlineyscale[1] = 1;
-		inputboxx[1] += (time_bpm_to_seconds(global.bpm)*10)*(global.sngspeed*2);
+		inputboxx[1] += ((time_bpm_to_seconds(global.bpm)*10)*(global.sngspeed*2))//*(delta_time/1000000);
 		if inputboxx[1] > (64 * spaces[inputboxline[1]+2])+64 {
 			inputboxx[1] = 0;
 			if line_spaces[1] > 1 {
@@ -169,8 +169,8 @@ if stop = false {
 	else {
 		tlineyscale[0] = 0.75;
 		tlineyscale[1] = 0.75;
-		inputboxx[0] += (time_bpm_to_seconds(global.bpm)*10)*(global.sngspeed*2);
-		inputboxx[1] += (time_bpm_to_seconds(global.bpm)*10)*(global.sngspeed*2);
+		inputboxx[0] += ((time_bpm_to_seconds(global.bpm)*10)*(global.sngspeed*2))//*(delta_time/1000000);
+		inputboxx[1] += ((time_bpm_to_seconds(global.bpm)*10)*(global.sngspeed*2))//*(delta_time/1000000);
 		if inputboxx[0] > (64 * spaces[inputboxline[0]-1])+64 {
 			inputboxx[0] = 0;
 			if line_spaces[0] > 1 {

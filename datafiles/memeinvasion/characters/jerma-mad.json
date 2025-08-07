@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Jerma Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				108,
+				30
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Jerma Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				80,
+				80
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Jerma Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				30,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Jerma right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-237,
+				67
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Jerma Down",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/sus",
+	"position": [
+		-590,
+		-40
+	],
+	"healthicon": "jerma-alt",
+	"flip_x": false,
+	"healthbar_colors": [
+		253,
+		33,
+		41
+	],
+	"camera_position": [
+		210,
+		140
+	],
+	"sing_duration": 6.1,
+	"scale": 0.6
+}

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="JohnMX.png"><SubTexture name="JohnMX idle0000" x="0" y="0" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX left0000" x="36" y="0" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX left0001" x="72" y="0" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX left0002" x="108" y="0" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX left0003" x="144" y="0" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX left0004" x="180" y="0" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX up0000" x="0" y="36" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX up0001" x="36" y="36" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX up0002" x="72" y="36" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX up0003" x="108" y="36" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX up0004" x="144" y="36" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX up0005" x="180" y="36" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX down0000" x="0" y="72" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX down0001" x="36" y="72" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX down0002" x="72" y="72" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX down0003" x="108" y="72" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX down0004" x="144" y="72" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX right0000" x="180" y="72" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX right0001" x="0" y="108" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX right0002" x="36" y="108" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX right0003" x="72" y="108" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX go up0000" x="108" y="108" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX go up0000" x="144" y="108" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX is up0000" x="144" y="108" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX go down0000" x="180" y="108" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX go down0000" x="0" y="144" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX is down0000" x="0" y="144" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX dodge0000" x="36" y="144" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX dodge0001" x="72" y="144" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX dodge0002" x="108" y="144" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX blue eye0000" x="144" y="144" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX blue eye0001" x="180" y="144" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX blue eye0002" x="0" y="180" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX blue eye0003" x="36" y="180" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX blue eye0004" x="72" y="180" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX blue eye0005" x="108" y="180" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX blue eye0006" x="144" y="180" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX vanish0000" x="180" y="180" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX vanish0001" x="0" y="216" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX vanish0002" x="36" y="216" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX vanish0003" x="72" y="216" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX vanish0004" x="108" y="216" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="JohnMX sus0000" x="144" y="216" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+</TextureAtlas>

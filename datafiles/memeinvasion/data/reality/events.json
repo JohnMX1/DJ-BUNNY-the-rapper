@@ -1,0 +1,46 @@
+{
+	"song": {
+		"events": [
+			[
+				89600,
+				[
+					[
+						"Change Character",
+						"1",
+						"sanic"
+					]
+				]
+			],
+			[
+				109800,
+				[
+					[
+						"Change Character",
+						"1",
+						"jerma"
+					]
+				]
+			],
+			[
+				109900,
+				[
+					[
+						"Change Character",
+						"2",
+						"sanic"
+					]
+				]
+			],
+			[
+				110000,
+				[
+					[
+						"Cutscene Bars Appear",
+						"0",
+						""
+					]
+				]
+			]
+		]
+	}
+}

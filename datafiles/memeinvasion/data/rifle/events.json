@@ -1,0 +1,56 @@
+{
+	"song": {
+		"events": [
+			[
+				0,
+				[
+					[
+						"Character Camera Zoom",
+						"1.4",
+						"1.6"
+					],
+					[
+						"Fade UI Complete",
+						"12",
+						"1"
+					],
+					[
+						"Cutscene Bars Appear",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				3468.20809248555,
+				[
+					[
+						"Fade UI Complete",
+						"5",
+						"2"
+					]
+				]
+			],
+			[
+				5549.13294797688,
+				[
+					[
+						"Cutscene Bars Appear",
+						"1",
+						""
+					],
+					[
+						"Fade UI Complete",
+						"13",
+						"1"
+					],
+					[
+						"Character Camera Zoom",
+						"1.4",
+						"1.1"
+					]
+				]
+			]
+		]
+	}
+}

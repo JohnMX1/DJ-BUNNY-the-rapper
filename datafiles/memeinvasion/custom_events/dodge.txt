@@ -1,0 +1,3 @@
+Value 1, the speed
+A dodge event which doesn't stick to on beat
+-- suhu

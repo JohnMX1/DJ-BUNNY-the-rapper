@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="blasty.png"><SubTexture name="blasty idle0000" x="0" y="0" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="blasty blast0000" x="36" y="0" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="blasty blast0001" x="72" y="0" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="blasty blast0002" x="0" y="36" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="blasty blast0003" x="36" y="36" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="blasty blast0004" x="72" y="36" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="blasty blast0005" x="0" y="72" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="blasty blast0006" x="36" y="72" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="blasty blast0007" x="72" y="72" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="blasty blast0008" x="0" y="108" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="blasty blast0009" x="36" y="108" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="blasty blast0010" x="72" y="108" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="blasty blast0011" x="0" y="144" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+<SubTexture name="blasty invisble0000" x="36" y="144" width="36" height="36" frameX="0" frameY="0" frameWidth="36" frameHeight="36" />
+</TextureAtlas>

@@ -4,4 +4,4 @@ base_xscale = 1;
 base_yscale = 4;
 image_xscale = 0;
 image_yscale = 0;
-ini_open("");
+sprite_index = sprite_add("mainfiles/spr_songbox.png", 1, false, false, 64, 64);

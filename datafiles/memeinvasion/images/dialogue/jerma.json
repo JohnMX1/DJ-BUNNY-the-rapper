@@ -1,0 +1,63 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		-500,
+		-290
+	],
+	"scale": 0.75,
+	"animations": [
+		{
+			"loop_name": "Jerma Left",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Jerma Idle",
+			"anim": "left",
+			"loop_offsets": [
+				90,
+				20
+			]
+		},
+		{
+			"loop_name": "Jerma right",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Jerma Idle",
+			"anim": "right",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Jerma Down",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Jerma Idle",
+			"anim": "down",
+			"loop_offsets": [
+				-203,
+				70
+			]
+		},
+		{
+			"loop_name": "Jerma Up",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Jerma Idle",
+			"anim": "up",
+			"loop_offsets": [
+				100,
+				50
+			]
+		}
+	],
+	"image": "Jerma"
+}

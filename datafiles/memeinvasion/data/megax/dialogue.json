@@ -1,0 +1,140 @@
+{
+	"dialogue": [
+		{
+			"expression": "excited",
+			"text": "Wha-",
+			"boxState": "normal",
+			"portrait": "joon",
+			"speed": 0.11,
+			"sound": ""
+		},
+		{
+			"expression": "confused",
+			"text": "Who Are You",
+			"boxState": "normal",
+			"portrait": "joon",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "*Points Middle Finger At John*"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "joon",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "You DAMN MOTHERFU-"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "joon",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "YOU!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "joon",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "YOU MADE ME MAD!"
+		},
+		{
+			"expression": "talk",
+			"text": "SO,",
+			"boxState": "angry",
+			"portrait": "joon",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "talk",
+			"text": "So What",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "pissed",
+			"text": "Didn't Ask + Ratio + Your Song Sucks",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "shocked",
+			"text": "Ya Know What",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "joon"
+		},
+		{
+			"expression": "pissed",
+			"text": "Here's The Deal",
+			"boxState": "normal",
+			"portrait": "joon",
+			"speed": 0.165,
+			"sound": ""
+		},
+		{
+			"expression": "pissed",
+			"text": "I Win The Rap",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "joon"
+		},
+		{
+			"expression": "pissed",
+			"text": "You're Banned",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "joon"
+		},
+		{
+			"expression": "confused",
+			"text": "And If I Win",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "pissed",
+			"text": "You Go + I Kill You",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "joon"
+		},
+		{
+			"expression": "shocked",
+			"text": "But",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "pissed",
+			"text": "No Excuses.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "joon"
+		}
+	]
+}

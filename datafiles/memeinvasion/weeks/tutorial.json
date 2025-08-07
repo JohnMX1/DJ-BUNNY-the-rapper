@@ -1,0 +1,32 @@
+{
+	"songs": [
+		[
+			"MegaX",
+			"jooj",
+			[
+				206,
+				80,
+				0
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "mx",
+	"difficulties": "Hard",
+	"weekCharacters": [
+		"johnmx",
+		"bf-mx",
+		""
+	],
+	"storyName": "Let's See if you are good",
+	"weekName": "John",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

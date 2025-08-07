@@ -1,0 +1,68 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jerma",
+			"boxState": "normal",
+			"expression": "right",
+			"text": "Hihihihihihiiighihhihih"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "wtf"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "WAIT"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "angry",
+			"expression": "confused",
+			"text": "GF WHAT ARE YOU DOING HERE"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "angry",
+			"expression": "demon",
+			"text": "YOU ONLY NOTICED ME NOW"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "ya"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jerma",
+			"boxState": "normal",
+			"expression": "down",
+			"text": "ODKfjignelkxgncbioslxdykjzdfpxcg fodsxglsrudxnjdhksdrthyoldkisdgifsudhszdcbthdyosuxfhfdnxvljgd\\nlet sa go rapi"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Make It Fast"
+		}
+	]
+}

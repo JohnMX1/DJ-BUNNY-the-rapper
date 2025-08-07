@@ -1,0 +1,5 @@
+Sets the cutscene text.
+
+Value 1: Text.
+
+Value 2: Time the text is visible.

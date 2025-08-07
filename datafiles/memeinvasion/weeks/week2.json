@@ -1,0 +1,41 @@
+{
+	"storyName": "Second Experiment",
+	"difficulties": "Normal, Hard",
+	"hideFreeplay": false,
+	"weekBackground": "sanic",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "week1",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"jerma",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"Baka",
+			"jerma",
+			[
+				235,
+				140,
+				115
+			]
+		],
+		[
+			"Being Sussy",
+			"jerma-alt",
+			[
+				195,
+				140,
+				115
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Jerma's Week",
+	"hiddenUntilUnlocked": true
+}

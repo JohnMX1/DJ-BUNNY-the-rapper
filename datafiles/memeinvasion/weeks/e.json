@@ -1,0 +1,26 @@
+{
+	"storyName": "amogus",
+	"difficulties": "hard",
+	"hideFreeplay": true,
+	"weekBackground": "stage",
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"weekCharacters": [
+		"bf",
+		"bf",
+		"bf"
+	],
+	"songs": [
+		[
+			"sound-test",
+			"bf",
+			[
+				0,
+				0,
+				0
+			]
+		]
+	],
+	"weekName": "Freeplay"
+}

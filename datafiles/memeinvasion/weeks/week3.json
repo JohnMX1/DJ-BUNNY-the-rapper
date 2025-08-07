@@ -1,0 +1,41 @@
+{
+	"storyName": "Tfg",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "week4",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"Your Fatal Error",
+			"jerma-alt",
+			[
+				0,
+				0,
+				0
+			]
+		],
+		[
+			"Ultimate Knockout",
+			"jerma-alt",
+			[
+				0,
+				0,
+				0
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Last Week",
+	"hiddenUntilUnlocked": false
+}

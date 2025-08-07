@@ -1,0 +1,44 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jerma",
+			"boxState": "normal",
+			"expression": "up",
+			"text": "Huf"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jerma",
+			"boxState": "normal",
+			"expression": "down",
+			"text": "Puf"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jerma",
+			"boxState": "normal",
+			"expression": "right",
+			"text": "I Used All My Forces"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jerma",
+			"boxState": "normal",
+			"expression": "up",
+			"text": "Im So Weak That I Can't Make A Great Song Now"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Oh Shit, Here We Go Again"
+		}
+	]
+}

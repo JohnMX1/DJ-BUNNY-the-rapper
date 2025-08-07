@@ -1,0 +1,11 @@
+{
+	"idle_anim": "sanic idle",
+	"image": "Menu_Sanic",
+	"position": [
+		819,
+		857
+	],
+	"flipX": true,
+	"scale": 0.2,
+	"confirm_anim": "M Dad Idle"
+}

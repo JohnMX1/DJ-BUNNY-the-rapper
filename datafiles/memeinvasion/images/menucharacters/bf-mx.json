@@ -1,0 +1,11 @@
+{
+	"idle_anim": "Bray idle",
+	"image": "Brayfien",
+	"position": [
+		910,
+		286
+	],
+	"flipX": true,
+	"scale": 1,
+	"confirm_anim": "Bray right"
+}

@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "JohnMX idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "JohnMX left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "JohnMX right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-19,
+				10
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "JohnMX up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "JohnMX down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "dodge",
+			"fps": 24,
+			"name": "JohnMX dodge",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle-alt",
+			"loop": false,
+			"name": "JohnMX sus"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/a",
+	"position": [
+		250,
+		520
+	],
+	"healthicon": "jooj",
+	"flip_x": false,
+	"healthbar_colors": [
+		226,
+		85,
+		5
+	],
+	"camera_position": [
+		-110,
+		-190
+	],
+	"sing_duration": 6.1,
+	"scale": 20
+}

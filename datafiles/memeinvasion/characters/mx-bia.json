@@ -1,0 +1,128 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				1,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "JohnMX left"
+		},
+		{
+			"offsets": [
+				1,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "JohnMX right"
+		},
+		{
+			"offsets": [
+				-19,
+				10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "JohnMX up"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "JohnMX down"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "dodge",
+			"indices": [],
+			"name": "JohnMX dodge"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle-alt",
+			"indices": [],
+			"name": "JohnMX idle"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "JohnMX sus"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "unvanish",
+			"indices": [
+				4,
+				3,
+				2,
+				1,
+				0
+			],
+			"name": "JohnMX vanish"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "vanish",
+			"indices": [],
+			"name": "JohnMX vanish"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/JohnMX",
+	"position": [
+		200,
+		320
+	],
+	"healthicon": "jooj",
+	"flip_x": false,
+	"healthbar_colors": [
+		226,
+		85,
+		5
+	],
+	"camera_position": [
+		-230,
+		-400
+	],
+	"sing_duration": 6.1,
+	"scale": 20
+}

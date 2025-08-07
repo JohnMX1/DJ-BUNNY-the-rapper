@@ -1,0 +1,68 @@
+{
+	"dialogue": [
+		{
+			"expression": "down",
+			"text": "Gota Gooououoouo Faaast",
+			"boxState": "normal",
+			"sound": "sanic a",
+			"speed": 0.005,
+			"portrait": "sanic"
+		},
+		{
+			"expression": "confused",
+			"text": "what the fuck",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "left",
+			"text": "Aeidazx0diasiozogvso",
+			"boxState": "normal",
+			"sound": "sanic a",
+			"speed": 0.05,
+			"portrait": "sanic"
+		},
+		{
+			"expression": "talk",
+			"text": "let's rap!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "left",
+			"text": "ksgldjhkaglsfdldghgkchfghdkcgsdfjggkfldkgfhkldjsfdjsdlfkgdflsadsjl aahsfjtrhtspjiethaksdhjskdfofuiskjldifjdktlsfjlsjkdlcgjfkdldgkslgjdskdlllllldjhjosrthkdsjdkdhsfjshgfjdffhdsfsjkdhskdafdgjhdfsiaofsgfjldmhfjkdtslfkdlcgkfdsrcgn aaaaaa eeeeee iiiiiii uuuuuu oooooooo aaaaaa",
+			"boxState": "normal",
+			"sound": "sanic a",
+			"speed": 0.005,
+			"portrait": "sanic"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Why Is Sikera Junior Back There"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "sikera",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "E MACONHA DOIDO"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "sikera",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "."
+		}
+	]
+}

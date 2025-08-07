@@ -1,0 +1,44 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "DUDE YOU'RE CRASY"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jerma",
+			"boxState": "normal",
+			"expression": "up",
+			"text": ">:("
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "That Song Is Horrible"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "ALL The Songs In This Mod Sucks BF"
+		},
+		{
+			"sound": "",
+			"speed": 0.235,
+			"portrait": "jerma",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Not Every One"
+		}
+	]
+}
