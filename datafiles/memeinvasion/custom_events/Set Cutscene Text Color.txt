@@ -1,3 +1,0 @@
-Sets the cutscene text's color.
-
-Value 1: Color in hex.

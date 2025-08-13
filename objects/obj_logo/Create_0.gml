@@ -1,0 +1,15 @@
+sprite_index = sprite_add("mainfiles/spr_logomain.png", 1, false, false, 320, 320);
+sprite_index_text = sprite_add("mainfiles/spr_logomain_text.png", 1, false, false, 320, 320);
+mic = sprite_add("mainfiles/spr_logoside.png", 1, false, false, 320, 320);
+mic_text = sprite_add("mainfiles/spr_logoside_text.png", 1, false, false, 320, 320);
+micx = 3000;
+susx = 0;
+susy = 0;
+image_xscale_text = 10;
+image_yscale_text = 10;
+image_alpha = 0;
+image_alphaa = 0;
+sus = 0;
+image_angle = 460;
+col = false;
+ui = false;

@@ -1,2 +1,0 @@
-Value 1: Move in or move out. 
-(0 to move in, 1 to move out.)
