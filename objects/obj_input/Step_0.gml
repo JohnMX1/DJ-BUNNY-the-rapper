@@ -8,8 +8,12 @@ image_yscale = obj_chart.lineyscale[1];
 if sec > 0.01 {
 	sec -= 0.01;
 }
+else {
+	sec = 0;
+}
 if sus = 0 {
 	if image_xscale <= -1 {
+		image_xscale = -1;
 		if sac < 3 {
 			sus = 1;
 			sac++;
@@ -24,6 +28,7 @@ if sus = 0 {
 }
 else if sus = 1 {
 	if image_xscale >= 1 {
+		image_xscale = 1;
 		if sac < 3 {
 			sus = 0;
 			sac++;

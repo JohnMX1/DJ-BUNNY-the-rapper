@@ -1,11 +1,12 @@
 sus = -1;
 sec = 0.25;
 sac=0;
-secrt = 1;
+soc = 0;
 secrtsus = 0;
 image_alpha = 0;
 image_xscale = 1;
-sprite_index = sprite_add("mainfiles/spr_notes_normal.png", 1, false, false, 64, 64);
+image_speed = 0;
+sprite_index = sprite_add("mainfiles/spr_notes_normal.png", 4, false, false, 64, 64);
 
 //input[0] = vk_left;
 //input[1] = vk_down;

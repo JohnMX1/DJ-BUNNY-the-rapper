@@ -49,6 +49,17 @@ alphaanim[3] = 0;
 alphaanim[4] = 0;
 
 sprite_index = sprite_add("mainfiles/spr_songbox.png", 1, false, false, 64, 64);
+var _nineslice = sprite_nineslice_create();
+
+_nineslice.enabled = true;
+_nineslice.left = 32;
+_nineslice.right = 32;
+_nineslice.top = 32;
+_nineslice.bottom = 32;
+
+_nineslice.tilemode[nineslice_center] = nineslice_mirror;
+
+sprite_set_nineslice(sprite_index, _nineslice);
 spr_setas = sprite_add("mainfiles/spr_notes_normal.png", 4, false, false, 32, 32);
 spr_press = sprite_add("mainfiles/spr_inputs.png", 6, false, false, 32, 32);
 
@@ -63,3 +74,4 @@ inputboxx[1] = 0;
 inputboxline[0] = 1;
 inputboxline[1] = 1;
 #endregion
+game_set_speed(60, gamespeed_fps);

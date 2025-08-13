@@ -33,5 +33,6 @@
     {"name":"spr_box","order":7,"path":"sprites/spr_box/spr_box.yy",},
     {"name":"spr_crt_effect","order":3,"path":"sprites/spr_crt_effect/spr_crt_effect.yy",},
     {"name":"spr_grey","order":6,"path":"sprites/spr_grey/spr_grey.yy",},
+    {"name":"spr_hitbox","order":9,"path":"sprites/spr_hitbox/spr_hitbox.yy",},
   ],
 }

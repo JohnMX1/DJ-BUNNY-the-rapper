@@ -1,5 +1,4 @@
-x = camera_get_view_x(view_camera[0])+xstart;
-y = camera_get_view_y(view_camera[0])+ystart;
+global.delta = (delta_time/1000000)/(1/60);
 
 ini_open("mainfiles/sections/songs/"+string(global.song)+"/easy.djbc");
 
@@ -11,8 +10,8 @@ if start_animation = true {
 		alphaanim[0] += 0.01;
 		animx1 += 0.05;
 		animy1 += 0.05;
-		anim_sec++;
-		if anim_sec = 40 {
+		anim_sec += 1;
+		if anim_sec >= 40 {
 			anim_cur = 1;
 			anim_sec = 0;
 			audio_play_sound(snd_2, 0, 0);
@@ -23,8 +22,8 @@ if start_animation = true {
 		alphaanim[1] += 0.01;
 		animx2 += 0.05;
 		animy2 += 0.05;
-		anim_sec++;
-		if anim_sec = 40 {
+		anim_sec += 1;
+		if anim_sec >= 40 {
 			anim_cur = 2;
 			anim_sec = 0;
 			audio_play_sound(snd_1, 0, 0);
@@ -35,8 +34,8 @@ if start_animation = true {
 		alphaanim[2] += 0.01;
 		animx3 += 0.05;
 		animy3 += 0.05;
-		anim_sec++;
-		if anim_sec = 40 {
+		anim_sec += 1;
+		if anim_sec >= 40 {
 			anim_cur = 3;
 			anim_sec = 0;
 			audio_play_sound(snd_go, 0, 0);
@@ -48,8 +47,8 @@ if start_animation = true {
 		alphaanim[4] += 0.01;
 		animx4 += 0.05;
 		animx5 += 0.05;
-		anim_sec++;
-		if anim_sec = 40 {
+		anim_sec += 1;
+		if anim_sec >= 40 {
 			start_animation = false;
 			stop = false;
 			Start_Song();
@@ -71,7 +70,7 @@ if stop = false {
 		image_alphaa = lerp(image_alphaa, 1, 0.1);
 		image_xscale = lerp(image_xscale, base_xscale, 0.1);
 		image_yscale = lerp(image_yscale, base_yscale, 0.1);
-		anim_sus++;
+		anim_sus += 1;
 		if anim_sus >= 120 {
 			anim_sus = 0;
 			animation = false;
@@ -80,14 +79,11 @@ if stop = false {
 	if global.turn[0] = 1 and global.turn[1] = 0 {
 		tlineyscale[0] = 1;
 		tlineyscale[1] = 0.5;
-		inputboxx[0] += ((time_bpm_to_seconds(global.bpm)*10)*(global.sngspeed*2))//*(delta_time/1000000);
+		inputboxx[0] += ((time_bpm_to_seconds(global.bpm)*10)*(global.sngspeed*2))*global.delta;
 		if inputboxx[0] > (64 * spaces[inputboxline[0]-1])+64 {
 			inputboxx[0] = 0;
 			if line_spaces[0] > 1 {
-				if line_spaces[0] = 2 and inputboxline[0] < 2 {
-					inputboxline[0]++;
-				}
-				else if line_spaces[0] = 3 and inputboxline[0] < 3 {
+				if inputboxline[0] < line_spaces[0] {
 					inputboxline[0]++;
 				}
 				else {
@@ -110,7 +106,7 @@ if stop = false {
 	else if global.turn[0] = 0 and global.turn[1] = 1 {
 		tlineyscale[0] = 0.5;
 		tlineyscale[1] = 1;
-		inputboxx[1] += ((time_bpm_to_seconds(global.bpm)*10)*(global.sngspeed*2))//*(delta_time/1000000);
+		inputboxx[1] += ((time_bpm_to_seconds(global.bpm)*10)*(global.sngspeed*2))*global.delta;
 		if inputboxx[1] > (64 * spaces[inputboxline[1]+2])+64 {
 			inputboxx[1] = 0;
 			if line_spaces[1] > 1 {
@@ -169,8 +165,8 @@ if stop = false {
 	else {
 		tlineyscale[0] = 0.75;
 		tlineyscale[1] = 0.75;
-		inputboxx[0] += ((time_bpm_to_seconds(global.bpm)*10)*(global.sngspeed*2))//*(delta_time/1000000);
-		inputboxx[1] += ((time_bpm_to_seconds(global.bpm)*10)*(global.sngspeed*2))//*(delta_time/1000000);
+		inputboxx[0] += ((time_bpm_to_seconds(global.bpm)*10)*(global.sngspeed*2))*global.delta;
+		inputboxx[1] += ((time_bpm_to_seconds(global.bpm)*10)*(global.sngspeed*2))*global.delta;
 		if inputboxx[0] > (64 * spaces[inputboxline[0]-1])+64 {
 			inputboxx[0] = 0;
 			if line_spaces[0] > 1 {
@@ -257,18 +253,6 @@ if stop = false {
 			audio_destroy_stream(song_vocals);
 		}*/
 		audio_pause_all();
-	}
-	if x < (base_x-1) {
-		x += (base_x - x) * 0.02;
-	}
-	else if x > (base_x+1) {
-		x -= (x - base_x) * 0.02;
-	}
-	if y < (base_y-1) {
-		y += (base_y - y) * 0.02;
-	}
-	else if y > (base_y+1) {
-		y -= (y - base_y) * 0.02;
 	}
 }
 else {

@@ -36,3 +36,4 @@ if start_animation = true {
 	//draw_sprite();
 }
 draw_text(32, 0, fps);
+draw_text(64, 64, global.delta);

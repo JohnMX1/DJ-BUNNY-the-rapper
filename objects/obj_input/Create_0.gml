@@ -3,13 +3,18 @@ sec = 0.45;
 sac=0;
 image_alpha = 0;
 image_xscale = 0;
-sprite_index = sprite_add("mainfiles/spr_inputs.png", 1, false, false, 64, 64);
+image_speed = 0;
+sprite_index = sprite_add("mainfiles/spr_inputs.png", 6, false, false, 64, 64);
 
 if place_meeting(x, y, obj_note) {
 	image_index = 1;
+	global.opphp -= 1;
+	global.mainhp += 1;
 }
 else {
 	image_index = 2;
+	global.opphp += 1;
+	global.mainhp -= 1;
 }
 
 //input[0] = vk_left;
