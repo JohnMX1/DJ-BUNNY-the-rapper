@@ -10,8 +10,9 @@ if mxepart = true {
 		mxepart = false;
 		textpart = true;
 		instance_create_depth(0, 0, -9999, obj_flash);
-		global.menu = audio_create_stream("mainfiles/MainMenu.ogg");
-		audio_play_sound(global.menu, 0, 1);
+		if room_last != rm_menu {
+			audio_play_sound(global.menu, 0, 1);
+		}
 	}
 }
 else {
@@ -22,8 +23,9 @@ else {
 		mxesus = -1;
 		textpart = true;
 		instance_create_depth(0, 0, -9999, obj_flash);
-		global.menu = audio_create_stream("mainfiles/MainMenu.ogg");
-		audio_play_sound(global.menu, 0, 1);
+		if room_last != rm_menu {
+			audio_play_sound(global.menu, 0, 1);
+		}
 	}
 }
 if textpart = true {

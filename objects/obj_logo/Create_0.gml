@@ -13,3 +13,4 @@ sus = 0;
 image_angle = 460;
 col = false;
 ui = false;
+xpress = -10;
