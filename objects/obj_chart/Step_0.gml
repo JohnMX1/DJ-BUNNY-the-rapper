@@ -104,4 +104,10 @@ if global.song_started = true {
 		saved_x = x;
 	}
 }
-if keyboard_check_pressed(vk_control) room_restart();
+if keyboard_check_pressed(vk_lcontrol) {
+	room_restart(); 
+	audio_stop_all();
+}
+else if keyboard_check_pressed(vk_rcontrol) {
+	game_restart();
+}

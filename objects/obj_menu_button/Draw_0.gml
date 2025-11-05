@@ -1,0 +1,1 @@
+//nova ideia: disco girando com logo do jogo no meio e fundo com estática e vídeo de gameplay no fundo.

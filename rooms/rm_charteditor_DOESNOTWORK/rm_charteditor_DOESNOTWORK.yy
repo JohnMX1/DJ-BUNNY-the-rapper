@@ -1,15 +1,15 @@
 {
   "$GMRoom":"v1",
-  "%Name":"rm_charteditor",
+  "%Name":"rm_charteditor_DOESNOTWORK",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_14175DC","path":"rooms/rm_charteditor/rm_charteditor.yy",},
-    {"name":"inst_25B95679","path":"rooms/rm_charteditor/rm_charteditor.yy",},
-    {"name":"inst_44CBE8F7","path":"rooms/rm_charteditor/rm_charteditor.yy",},
-    {"name":"inst_5D782B50","path":"rooms/rm_charteditor/rm_charteditor.yy",},
+    {"name":"inst_14175DC","path":"rooms/rm_charteditor_DOESNOTWORK/rm_charteditor_DOESNOTWORK.yy",},
+    {"name":"inst_25B95679","path":"rooms/rm_charteditor_DOESNOTWORK/rm_charteditor_DOESNOTWORK.yy",},
+    {"name":"inst_44CBE8F7","path":"rooms/rm_charteditor_DOESNOTWORK/rm_charteditor_DOESNOTWORK.yy",},
+    {"name":"inst_5D782B50","path":"rooms/rm_charteditor_DOESNOTWORK/rm_charteditor_DOESNOTWORK.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -23,7 +23,7 @@
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"rm_charteditor",
+  "name":"rm_charteditor_DOESNOTWORK",
   "parent":{
     "name":"Cenas",
     "path":"folders/Cenas.yy",

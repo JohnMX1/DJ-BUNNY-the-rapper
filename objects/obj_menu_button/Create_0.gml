@@ -1,0 +1,10 @@
+sprite = spr_menu_bar;
+color1 = c_ltgray;
+color2 = c_white;
+color3 = c_gray;
+y1 = -32;
+y2 = 0;
+y3 = 32;
+p1 = 0;
+p2 = 1;
+p3 = 2;
