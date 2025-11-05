@@ -1,0 +1,2 @@
+draw_self();
+draw_text(48, y/1.5, "For UP Arrow:    W\nFor Down Arrow:  S\nFor Left Arrow:  A\nFor Right Arrow: D\n\nToggle Hold Notes: Left Shift\nToggle Double Notes: Right Shift\n\nAdd Note: Left Click\nAdd Event: Right Click");

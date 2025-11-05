@@ -1,0 +1,1 @@
+draw_sprite(spr_load, sus, 1366-32, 768-32);

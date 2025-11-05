@@ -1,99 +1,57 @@
-function Start_Song() {
+function Before_Song() {
 	ini_open("mainfiles/sections/songs/"+string(global.song)+"/easy.djbc");
 	global.sngspeed = ini_read_real("song", "speed", 0.5);
 	global.bpm = ini_read_real("song", "bpm", 5);
 	sections_amount = ini_read_real("song", "sections", 1);
 	global.char_opp = ini_read_real("song", "opp", 0);
 	global.char_main = ini_read_real("song", "main", 1);
+	global.has_talk_before = ini_read_real("song", "preptalk", 0);
+	talk_amount = ini_read_real("song", "prepamount", 0);
+	talk_place = ini_read_string("song", "preplocal1", "");
+	global.has_start_tune = ini_read_real("song", "start_tune", 0);
 	ini_close();
-	song_inst = audio_create_stream("mainfiles/sections/songs/"+string(global.song)+"/Inst.ogg");
-	audio_play_sound(song_inst, 0, 0);
-	if file_exists("mainfiles/sections/songs/"+string(global.song)+"/Vocals.ogg") {
-		song_has_vocals = true;
+}
+function Start_Song() {
+	global.song_inst = audio_create_stream("mainfiles/sections/songs/"+string(global.song)+"/Inst.ogg");
+	audio_play_sound(global.song_inst, 0, 0);
+	if file_exists("mainfiles/sections/songs/"+string(global.song)+"/Voices.ogg") {
+		global.song_has_vocals = true;
 	}
 	else {
-		song_has_vocals = false;
+		global.song_has_vocals = false;
 	}
-	if song_has_vocals = true {
-		song_vocals = audio_create_stream("mainfiles/sections/songs/"+string(global.song)+"/Vocals.ogg");
-		audio_play_sound(song_vocals, 0, 0);
+	if global.song_has_vocals = true {
+		global.song_vocals = audio_create_stream("mainfiles/sections/songs/"+string(global.song)+"/Voices.ogg");
+		audio_play_sound(global.song_vocals, 0, 0);
 	}
 }
 function Create_Section(song) {
 	
 }
 
-function Section_Spaces(section) {
-	ini_open("mainfiles/sections/songs/"+string(global.song)+"/easy.djbc");
-	space[0] = ini_read_real(string(section)+"sectionopp", "spaces", 1);
-	space[1] = ini_read_real(string(section)+"sectionmain", "spaces", 1);
-	ini_close();
-	#region wtf was I doing here
-	if space[0] > 14 and space[0] < 29 {
-		spaces[0] = 14;
-		spaces[1] = space[0]-14;
-		spaces[2] = 0;
+function GetPaused() {
+	pause = true;
+	audio_pause_sound(global.song_inst);
+	if global.song_has_vocals = true {
+		audio_pause_sound(global.song_vocals);
 	}
-	else if space[0] > 28 {
-		spaces[0] = 14;
-		spaces[1] = 14;
-		spaces[2] = space[0]-28;
-	}
-	else {
-		spaces[0] = space[0];
-		spaces[1] = 0;
-		spaces[2] = 0;
-	}
-	if space[1] > 14 and space[1] < 29 {
-		spaces[3] = 14;
-		spaces[4] = space[1]-14;
-		spaces[5] = 0;
-	}
-	else if space[1] > 28 {
-		spaces[3] = 14;
-		spaces[4] = 14;
-		spaces[5] = space[1]-28;
-	}
-	else {
-		spaces[3] = space[1];
-		spaces[4] = 0;
-		spaces[5] = 0;
-	}
-	if spaces[1] != 0 and spaces[2] = 0 {
-		line_spaces[0] = 2;
-	}
-	else if spaces[1] != 0 and spaces[2] != 0 {
-		line_spaces[0] = 3;
-	}
-	else {
-		line_spaces[0] = 1;
-	}
-	if spaces[4] != 0 and spaces[5] = 0 {
-		line_spaces[1] = 2;
-	}
-	else if spaces[4] != 0 and spaces[5] != 0 {
-		line_spaces[1] = 3;
-	}
-	else {
-		line_spaces[1] = 1;
-	}
-	#endregion
 }
-function Section_Turns(section) {
-	ini_open("mainfiles/sections/songs/"+string(global.song)+"/easy.djbc");
-	global.turn[0] = ini_read_real(string(section)+"sectionopp", "first", 1);
-	global.turn[1] = ini_read_real(string(section)+"sectionmain", "first", 0);
-	ini_close();
+function Unpause() {
+	pause = false;
+	audio_resume_sound(global.song_inst);
+	if global.song_has_vocals = true {
+		audio_resume_sound(global.song_vocals);
+	}
 }
+
 function Section_Notes(section) {
 	notes_existing[0] = 0;
 	notes_existing[1] = 0;
-	instance_destroy(obj_input);
-	instance_destroy(obj_note);
 	ini_open("mainfiles/sections/songs/"+string(global.song)+"/easy.djbc");
-	chart_notes_existing[0] = ini_read_real(string(section)+"sectionopp", "noteamount", 1);
-	chart_notes_existing[1] = ini_read_real(string(section)+"sectionmain", "noteamount", 1);
+	chart_notes_existing[0] = ini_read_real(string(section)+"sectionopp", "noteamount", 0);
+	chart_notes_existing[1] = ini_read_real(string(section)+"sectionmain", "noteamount", 0);
 	ini_close();
+	instance_destroy(obj_note);
 	for (var o = 0; o < 1; ++o) {
 		for (var i = 0; i < chart_notes_existing[o]; ++i) {
 			ini_open("mainfiles/sections/songs/"+string(global.song)+"/easy.djbc");
@@ -106,8 +64,8 @@ function Section_Notes(section) {
 			notessecret1[i] = ini_read_real(string(section)+"sectionopp", string(i)+"notesecret", 0);
 			notessecret2[i] = ini_read_real(string(section)+"sectionmain", string(i)+"notesecret", 0);
 			ini_close();
-			notes1[i] = instance_create_depth(236 + notesx1[i], (72+(40*line_spaces[0]+40)*lineyscale[0]), -9999, obj_note);
-			notes2[i] = instance_create_depth(236 + notesx1[i], (72+(40*line_spaces[0]+40)*lineyscale[0]) + (40*(inputboxline[1]-1))*lineyscale[1], -9999, obj_note);
+			notes1[i] = instance_create_depth(point_distance(obj_chart.x, y, notesx1[i], y), 160-48, depth-1, obj_note);
+			notes2[i] = instance_create_depth(point_distance(obj_chart.x, y, notesx2[i], y), 160+48, depth-1, obj_note);
 			notes1[i].input = notestype1[i];
 			notes2[i].input = notestype2[i];
 			notes1[i].image_index = notestype1[i];
@@ -125,26 +83,33 @@ function Section_Notes(section) {
 		}
 	}
 }
-function Section_Add_Notes(section, turn) {
+function Section_Add_Notes(section, turn, number, pos, type, line, secret) {
 	ini_open("mainfiles/sections/songs/"+string(global.song)+"/easy.djbc");
 	if turn = 0 {
-		ini_write_real(string(section)+"sectionopp", "noteamount", 1);
+		ini_write_real(string(section)+"sectionopp", "noteamount", number);
+		ini_write_real(string(section)+"sectionopp", string(number)+"notex", pos);
+		ini_write_real(string(section)+"sectionopp", string(number)+"notetype", type);
+		ini_write_real(string(section)+"sectionopp", string(number)+"noteline", line);
+		ini_write_real(string(section)+"sectionopp", string(number)+"notesecret", secret);
 	}
 	else {
-		ini_write_real(string(section)+"sectionmain", "noteamount", 1);
+		ini_write_real(string(section)+"sectionmain", "noteamount", number);
+		ini_write_real(string(section)+"sectionmain", string(number)+"notex", pos);
+		ini_write_real(string(section)+"sectionmain", string(number)+"notetype", type);
+		ini_write_real(string(section)+"sectionmain", string(number)+"noteline", line);
+		ini_write_real(string(section)+"sectionmain", string(number)+"notesecret", secret);
 	}
 	ini_close();
 }
-
-function Section_Start() {
-	Section_Spaces(1);
-	Section_Turns(1);
-	Section_Notes(1);
-}
-function Section_Update(sections) {
-	Section_Spaces(sections);
-	Section_Turns(sections);
-	Section_Notes(sections);
+function Section_Delete_Notes(section) {
+	ini_open("mainfiles/sections/songs/"+string(global.song)+"/easy.djbc");
+	if turn = 0 {
+		ini_write_real(string(section)+"sectionopp", "noteamount", chart_notes_existing[0]-1);
+	}
+	else {
+		ini_write_real(string(section)+"sectionmain", "noteamount", chart_notes_existing[1]+1);
+	}
+	ini_close();
 }
 
 function Characters_List() {
