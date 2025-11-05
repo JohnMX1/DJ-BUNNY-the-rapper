@@ -55,9 +55,11 @@
     {"$GMIncludedFile":"","%Name":"spr_logoside_text.png","CopyToMask":-1,"filePath":"datafiles/mainfiles","name":"spr_logoside_text.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"spr_logoside.png","CopyToMask":-1,"filePath":"datafiles/mainfiles","name":"spr_logoside.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"spr_longnotes.png","CopyToMask":-1,"filePath":"datafiles/mainfiles","name":"spr_longnotes.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"spr_newlogo.png","CopyToMask":-1,"filePath":"datafiles/mainfiles","name":"spr_newlogo.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"spr_notes_normal.png","CopyToMask":-1,"filePath":"datafiles/mainfiles","name":"spr_notes_normal.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"spr_songbox.png","CopyToMask":-1,"filePath":"datafiles/mainfiles","name":"spr_songbox.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"mod1.djbf","CopyToMask":-1,"filePath":"datafiles","name":"mod1.djbf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"spr_note_intro_strip64.png","CopyToMask":-1,"filePath":"datafiles","name":"spr_note_intro_strip64.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
   "LibraryEmitters":[],
@@ -102,9 +104,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},},
     {"roomId":{"name":"rm_song","path":"rooms/rm_song/rm_song.yy",},},
     {"roomId":{"name":"rm_charteditor","path":"rooms/rm_charteditor/rm_charteditor.yy",},},
-    {"roomId":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
