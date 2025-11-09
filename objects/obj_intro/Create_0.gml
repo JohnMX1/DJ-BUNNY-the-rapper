@@ -5,3 +5,5 @@ image_alpha = 0;
 saved_time = current_time;
 application_surface_draw_enable(false);
 depth = -9998;
+ang = 0;
+ui = false;

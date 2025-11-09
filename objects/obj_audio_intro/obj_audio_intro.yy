@@ -10,8 +10,8 @@
   "name":"obj_audio_intro",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"intro",
+    "path":"folders/Objetos/intro.yy",
   },
   "parentObjectId":null,
   "persistent":false,

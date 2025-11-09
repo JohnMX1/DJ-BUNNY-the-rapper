@@ -10,6 +10,7 @@ global.held_notes_sprite = sprite_add(string(global.loaded_mod)+"/spr_longnotes.
 global.inputs_and_event = sprite_add(string(global.loaded_mod)+"/spr_inputs.png", 6, false, false, 32, 32);
 var scl = sprite_nineslice_create();
 
+application_surface_draw_enable(true);
 scl.enabled = true;
 scl.left = 32;
 scl.right = 32;
