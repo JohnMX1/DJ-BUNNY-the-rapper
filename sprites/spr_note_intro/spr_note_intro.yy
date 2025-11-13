@@ -141,7 +141,7 @@
     },
     "name":"spr_note_intro",
     "playback":1,
-    "playbackSpeed":30.0,
+    "playbackSpeed":64.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
