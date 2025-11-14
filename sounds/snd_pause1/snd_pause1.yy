@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_pause1",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":51.63973,
+  "name":"snd_pause1",
+  "parent":{
+    "name":"Edilene Kart",
+    "path":"folders/Sons/Edilene Kart.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_pause1.mp3",
+  "type":0,
+  "volume":1.0,
+}

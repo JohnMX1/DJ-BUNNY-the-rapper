@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_itembox_alt",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":4.5191836,
+  "name":"snd_itembox_alt",
+  "parent":{
+    "name":"Edilene Kart",
+    "path":"folders/Sons/Edilene Kart.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_itembox_alt.mp3",
+  "type":0,
+  "volume":1.0,
+}

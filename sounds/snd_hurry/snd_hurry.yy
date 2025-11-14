@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_hurry",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":41.641,
+  "name":"snd_hurry",
+  "parent":{
+    "name":"Edilene Kart",
+    "path":"folders/Sons/Edilene Kart.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_hurry.mp3",
+  "type":0,
+  "volume":1.0,
+}
