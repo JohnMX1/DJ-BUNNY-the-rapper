@@ -1,8 +1,14 @@
 global.pause = false;
+//the y position
 xbar = 0;
+//the x position
 ybar = 0;
 
-ini_open("/mainfiles/config.djbf");
+//yes I fucked that up
+
+is_in = 0;
+
+ini_open(working_directory+"/mainfiles/config.djbf");
 global.language = ini_read_real("GAME", "language", 0);
 useramount = ini_read_real("GAME", "useramount", 0);
 ini_close();
@@ -47,10 +53,51 @@ switch (global.language) {
 		xbar_icons[2] = "Jogos";
 		ybar_text3[0] = "DJ BUNNY the rapper";
 		ybar_subtext3[0] = "O Único!";
+		
 		//Extras
+		xbar_icons[3] = "Extras";
+		ybar_text4[0] = "A ser adicionado";
+		ybar_subtext4[0] = "A ser adicionado";
 		break;
     default:
         // code here
 		show_error("Unsupported Launguage", true);
         break;
 }
+
+target_x = 1366;
+target_y = 384;
+target_angle = 0;
+iconx[0] = 0;
+icony[0] = 0;
+iconx[1] = 0;
+icony[1] = 0;
+iconx[2] = 0;
+icony[2] = 0;
+iconx[3] = 0;
+icony[3] = 0;
+
+radius = 0;
+//the circle
+angle[0] = 0;
+//the rest is the icons
+angle[1] = 45;
+angle[2] = 90;
+angle[3] = 135;
+angle[4] = 180;
+tangle[0] = 45;
+tangle[1] = 90;
+tangle[2] = 135;
+tangle[3] = 180;
+angle_speed = 2;
+image_alpha = 0;
+image_alphaa = 0;
+icon_alpha = 0;
+alpa[0] = 0;
+alpa[1] = 0;
+alpa[2] = 0;
+alpa[3] = 0;
+talpa[0] = 0;
+talpa[1] = 0;
+talpa[2] = 0;
+talpa[3] = 0;
