@@ -14,11 +14,25 @@ shader_set(shd_basic_3d_stuff);
 var camera = camera_get_active();
 var camera_distance = obj_player.look_dist;
 
-var xto = obj_player.fake_x;
-var yto = obj_player.fake_y;
+/*if room = rm_intro {
+	var xto = obj_player.xstart;
+	var yto = obj_player.ystart;
+	if obj_player.start = true {
+		var xfrom = xto - camera_distance * dcos(obj_player.look_dir);
+		var yfrom = yto + camera_distance * dsin(obj_player.look_dir);
+	}
+	else {
+		var xfrom = xto - camera_distance * dcos(270);
+		var yfrom = yto + camera_distance * dsin(270);
+	}
+}*/
+//else {
+	var xto = obj_player.fake_x;
+	var yto = obj_player.fake_y;
+	var xfrom = xto - camera_distance * dcos(obj_player.look_dir);
+	var yfrom = yto + camera_distance * dsin(obj_player.look_dir);
+//}
 var zto = obj_player.z;
-var xfrom = xto - camera_distance * dcos(obj_player.look_dir);
-var yfrom = yto + camera_distance * dsin(obj_player.look_dir);
 var zfrom = zto + camera_distance * dsin(obj_player.look_pitch);
 
 view_mat = matrix_build_lookat(xfrom, yfrom, zfrom, xto, yto, zto, 0, 0, 1);
@@ -102,7 +116,7 @@ dir = obj_player.look_dir;
 matrix_set(matrix_world, matrix_build(obj_player.x, obj_player.y, (obj_player.z-130)+((obj_player.image_scale+2)*2), 270, 0, dir, 80, 80, 100+(obj_player.image_scale*2)));
 vertex_submit(vb_player_alt, pr_trianglelist, sprite_get_texture(global.sprite[obj_player.action], obj_player.player_direction));
 matrix_set(matrix_world, matrix_build_identity());
-matrix_set(matrix_world, matrix_build(obj_player.x, obj_player.y, -2, 0, 0, dir+90, 100+(obj_player.z/2), 100+(obj_player.z/2), 100));
+matrix_set(matrix_world, matrix_build(obj_player.x, obj_player.y, -2, -xfrom, 0, dir+90, 100+(obj_player.z/2), 100+(obj_player.z/2), 100));
 vertex_submit(vb_player_shadow, pr_trianglelist, sprite_get_texture(spr, sus));
 matrix_set(matrix_world, matrix_build_identity());
 

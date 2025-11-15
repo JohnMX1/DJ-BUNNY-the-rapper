@@ -5,7 +5,7 @@ function stage_get_name(argument0){
 		return {
 			name: "Duck Eight Track",
 			type: 0,
-			song: snd_hurry
+			//song: noone//snd_hurry
 		};
 	}
 }
