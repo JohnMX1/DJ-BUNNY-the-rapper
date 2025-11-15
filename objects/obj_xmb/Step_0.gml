@@ -32,31 +32,31 @@ if keyboard_check_pressed(vk_up) {
 switch (xbar) {
 	case 3:
 		target_angle = 0;
-		talpa[0] = 1;
+		talpa[0] = 0;
 		talpa[1] = 0;
 		talpa[2] = 0;
-		talpa[3] = 0;
+		talpa[3] = 1;
 		break;
 	case 2:
 		target_angle = 45;
-		talpa[0] = 0;
-		talpa[1] = 1;
-		talpa[2] = 0;
-		talpa[3] = 0;
-		break;
-	case 1:
-		target_angle = 90;
 		talpa[0] = 0;
 		talpa[1] = 0;
 		talpa[2] = 1;
 		talpa[3] = 0;
 		break;
+	case 1:
+		target_angle = 90;
+		talpa[0] = 0;
+		talpa[1] = 1;
+		talpa[2] = 0;
+		talpa[3] = 0;
+		break;
 	case 0:
 		target_angle = 135;
-		talpa[0] = 0;
+		talpa[0] = 1;
 		talpa[1] = 0;
 		talpa[2] = 0;
-		talpa[3] = 1;
+		talpa[3] = 0;
 		break;
 }
 if angle[0] < target_angle {
@@ -93,4 +93,13 @@ if alpa[3] < talpa[3] {
 }
 else {
 	alpa[3] -= (alpa[3] - talpa[3]) * 0.2;
+}
+
+if keyboard_check_pressed(vk_enter) {
+	switch (xbar) {
+		case 2:
+			room_goto(rm_song);
+			audio_stop_all();
+			break;
+	}
 }

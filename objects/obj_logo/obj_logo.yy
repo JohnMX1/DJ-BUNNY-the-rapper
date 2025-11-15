@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"_54_Sem_T_tulo_20251010141208",
-    "path":"sprites/_54_Sem_T_tulo_20251010141208/_54_Sem_T_tulo_20251010141208.yy",
+    "name":"spr_edilenelogo",
+    "path":"sprites/spr_edilenelogo/spr_edilenelogo.yy",
   },
   "spriteMaskId":null,
   "visible":true,

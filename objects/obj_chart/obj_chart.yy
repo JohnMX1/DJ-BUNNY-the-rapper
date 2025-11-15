@@ -10,8 +10,8 @@
   "name":"obj_chart",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"song",
+    "path":"folders/Objetos/song.yy",
   },
   "parentObjectId":null,
   "persistent":false,

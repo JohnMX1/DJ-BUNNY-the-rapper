@@ -76,26 +76,17 @@ if start = true {
 			sdistcount = 1;
 			instance_create_depth(320, 240, -9999, obj_mxe);
 			audio_play_sound(snd_31, 0, 0);
-			audio_play_sound(snd_31, 0, 0);
-			audio_play_sound(snd_31, 0, 0);
-			audio_play_sound(snd_31, 0, 0);
 		}
 		else if wii = 120 {
 			count = 2;
 			apla = 1;
 			sdistcount = 2;
 			audio_play_sound(snd_21, 0, 0);
-			audio_play_sound(snd_21, 0, 0);
-			audio_play_sound(snd_21, 0, 0);
-			audio_play_sound(snd_21, 0, 0);
 		}
 		else if wii = 180 {
 			count = 3;
 			apla = 1;
 			sdistcount = 3;
-			audio_play_sound(snd_11, 0, 0);
-			audio_play_sound(snd_11, 0, 0);
-			audio_play_sound(snd_11, 0, 0);
 			audio_play_sound(snd_11, 0, 0);
 		}
 		else if wii = 240 {
@@ -107,13 +98,10 @@ if start = true {
 			apla = 1;
 			sdistcount = 4;
 			audio_play_sound(snd_go1, 0, 0);
-			audio_play_sound(snd_go1, 0, 0);
-			audio_play_sound(snd_go1, 0, 0);
-			audio_play_sound(snd_go1, 0, 0);
 		}
 	}
 	
-	if player_direction > 90 {
+	if player_direction > 0 {
 		player_direction -= 1/35;
 	}
 	action = 1;

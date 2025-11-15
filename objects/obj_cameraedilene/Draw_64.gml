@@ -12,9 +12,9 @@ else if global.lap = 2 {
 	blued -= (blued - 1) * 0.2;
 }
 draw_set_font(fnt_normal);
-draw_sprite_ext(spr_flag, 0, 0-stgtext, 470, 1, 1, 0, c_white, 1);
-draw_sprite_ext(spr_lap, global.lap, 64-stgtext, 470, 1, 1, 0, make_color_rgb(redd, greend, blued), 1);
-if obj_player.start = true {
+draw_sprite_ext(spr_flag, 0, 0-stgtext, 758, 1, 1, 0, c_white, 1);
+draw_sprite_ext(spr_lap, global.lap, 64-stgtext, 758, 1, 1, 0, make_color_rgb(redd, greend, blued), 1);
+if obj_playeredilene.start = true {
 	//draw_text_ext_transformed((-400)+stgtext, 32, global.stage.name, 25, 500, 1, 1, 0);
 }
 else {
@@ -22,6 +22,6 @@ else {
 		//audio_play_sound(global.stage.song, 0, 0);
 	//}
 }
-draw_text(32-stgtext, 32, obj_player.spd);
-draw_text(32-stgtext, 64, obj_player.mx_spd);
-draw_text(32-stgtext, 96, obj_player.du);
+draw_text(32-stgtext, 32, obj_playeredilene.spd);
+draw_text(32-stgtext, 64, obj_playeredilene.mx_spd);
+draw_text(32-stgtext, 96, obj_playeredilene.du);

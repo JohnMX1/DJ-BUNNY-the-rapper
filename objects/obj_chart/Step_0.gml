@@ -30,58 +30,50 @@ if sas = 2 {
 
 if sas = 3 {
 	global.countdown = true;
-	audio_play_sound(snd_3, 0, 0);
 	sas = 4;
+}
+if audio_is_playing(snd_31) {
+	image_xscale += (image_txscale - image_xscale) * 0.2;
+	image_yscale += (image_tyscale - image_yscale) * 0.2;
 }
 
 if global.countdown = true {
-	if ccnt = 0 {
-		ccntx += 0.25;
-		cnt[0] -= 0.025;
-		cnt1[0] += 0.025;
-		image_xscale += (image_txscale - image_xscale) * 0.2;
-		image_yscale += (image_tyscale - image_yscale) * 0.2;
-		if cnt1[0] >= 1 {
-			ccnt = 1;
-			ccntx = 0;
-			Section_Notes(1);
-			audio_play_sound(snd_2, 0, 0);
-		}
+	wii += 1;
+	if wii = 60 {
+		count = 1;
+		apla = 1;
+		sdistcount = 1;
+		audio_play_sound(snd_31, 0, 0);
 	}
-	else if ccnt = 1 {
-		ccntx += 0.25;
-		cnt[1] -= 0.025;
-		cnt1[1] += 0.025;
-		if cnt1[1] >= 1 {
-			ccnt = 2;
-			ccntx = 0;
-			instance_create_depth(32, 160, -9900, obj_hit);
-			audio_play_sound(snd_1, 0, 0);
-		}
+	else if wii = 120 {
+		count = 2;
+		apla = 1;
+		sdistcount = 2;
+		Section_Notes(1);
+		audio_play_sound(snd_21, 0, 0);
 	}
-	else if ccnt = 2 {
-		ccntx += 0.25;
-		cnt[2] -= 0.025;
-		cnt1[2] += 0.025;
-		if cnt1[2] >= 1 {
-			ccnt = 3;
-			ccntx = 0;
-			audio_play_sound(snd_go, 0, 0);
-		}
+	else if wii = 180 {
+		count = 3;
+		apla = 1;
+		sdistcount = 3;
+		instance_create_depth(32, 160, -9900, obj_hit);
+		audio_play_sound(snd_11, 0, 0);
 	}
-	else if ccnt = 3 {
-		ccntx += 0.25;
-		cnt[3] -= 0.025;
-		cnt[4] -= 0.025;
-		cnt1[3] += 0.025;
-		cnt1[4] += 0.025;
-		if cnt1[3] >= 1 {
-			global.countdown = false;
-			start_time = current_time;
-			Start_Song();
-			global.song_started = true;
-		}
+	else if wii = 240 {
+		count = 4;
+		apla = 1;
+		sdistcount = 4;
+		audio_play_sound(snd_go1, 0, 0);
+		start_time = current_time;
+		Start_Song();
+		global.song_started = true;
 	}
+	else if wii > 240 and apla = 0 {
+		global.countdown = false;
+	}
+}
+if apla > 0 {
+	apla -= 0.025;
 }
 
 if global.song_started = true {

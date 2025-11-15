@@ -15,8 +15,14 @@ if ui = true {
 		uip.rm = rm_song;
 	}
 }
-if current_time > (saved_time + 13500) {
+if current_time > (saved_time + 1000) {
 	blackscr = false;
 }
 camera_set_view_angle(view_camera[0], ang);
 camera_set_view_pos(view_camera[0], room_width/2-camera_get_view_width(view_camera[0])/2, room_height/2-camera_get_view_height(view_camera[0])/2);
+
+if sos < 7000 {
+	sos += 5;
+}
+
+if !audio_is_playing(global.sng) audio_play_sound(global.sng, 0, 1);

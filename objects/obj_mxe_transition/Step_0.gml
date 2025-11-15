@@ -1,6 +1,5 @@
 time += 1;
 if (time >= duration) {
     instance_destroy();
-	room_goto(rm_menu);
 }
-xx += 15;
+xx += 1+(xx*0.2);

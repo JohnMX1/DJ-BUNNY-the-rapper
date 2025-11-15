@@ -5,7 +5,7 @@ far = 0;
 sdist = -1;
 sdistcount = 0;
 
-audio_play_sound(snd_intro, 0, 0);
+audio_play_sound(snd_intro, 0, 0, 0.5);
 
 mouse_x_prev = mouse_x;
 mouse_y_prev = mouse_y;

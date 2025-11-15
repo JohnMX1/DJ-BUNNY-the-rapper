@@ -25,6 +25,10 @@ function Start_Song() {
 		audio_play_sound(global.song_vocals, 0, 0);
 	}
 }
+function Song_Has_To_Restart() {
+	audio_play_sound(global.song_inst, 0, 0);
+	if global.song_has_vocals = true audio_play_sound(global.song_vocals, 0, 0);
+}
 function Create_Section(song) {
 	
 }

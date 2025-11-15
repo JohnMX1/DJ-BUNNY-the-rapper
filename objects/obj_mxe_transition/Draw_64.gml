@@ -18,4 +18,4 @@
     shader_reset();
 }*/
 draw_sprite(global.part1, 0, 0-xx, 0);
-draw_sprite(global.part2, 0, 640+xx, 0);
+draw_sprite(global.part2, 0, 1366/2+xx, 0);
