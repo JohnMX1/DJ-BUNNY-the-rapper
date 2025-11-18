@@ -1,5 +1,6 @@
-look_dir = 0;
-look_dist = 100;
-look_pitch = 45;
+look_dir = 90;
+look_dist = 500;
+look_pitch = -45;
 
 z = 50;
+sas = 0;
