@@ -50,6 +50,13 @@ if global.countdown = true {
 		apla = 1;
 		sdistcount = 2;
 		Section_Notes(1);
+		global.totalnotes[0] = chart_notes_existing[0];
+		global.totalnotes[1] = chart_notes_existing[1];
+		global.excellent = 0;
+		global.good = 0;
+		global.bad = 0;
+		global.miss = 0;
+		global.score = 0;
 		audio_play_sound(snd_21, 0, 0);
 	}
 	else if wii = 180 {
@@ -77,7 +84,7 @@ if apla > 0 {
 }
 
 if global.song_started = true {
-	if keyboard_check_pressed(vk_space) {
+	if keyboard_check_pressed(vk_enter) {
 		if pause = true {
 			Unpause();
 		}

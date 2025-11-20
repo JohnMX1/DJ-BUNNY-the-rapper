@@ -116,7 +116,7 @@ dir = obj_playeredilene.look_dir;
 matrix_set(matrix_world, matrix_build(obj_playeredilene.x, obj_playeredilene.y, (obj_playeredilene.z-130)+((obj_playeredilene.image_scale+2)*2), 270, 0, dir, 80, 80, 100+(obj_playeredilene.image_scale*2)));
 vertex_submit(vb_player_alt, pr_trianglelist, sprite_get_texture(global.sprite[obj_playeredilene.action], obj_playeredilene.player_direction));
 matrix_set(matrix_world, matrix_build_identity());
-matrix_set(matrix_world, matrix_build(obj_playeredilene.x, obj_playeredilene.y, -2, -xfrom, 0, dir+90, 100+(obj_playeredilene.z/2), 100+(obj_playeredilene.z/2), 100));
+matrix_set(matrix_world, matrix_build(obj_playeredilene.x, obj_playeredilene.y, -2, 270, 0, dir+90, 100+(obj_playeredilene.z/2), 100+(obj_playeredilene.z/2), 100));
 vertex_submit(vb_player_shadow, pr_trianglelist, sprite_get_texture(spr, sus));
 matrix_set(matrix_world, matrix_build_identity());
 

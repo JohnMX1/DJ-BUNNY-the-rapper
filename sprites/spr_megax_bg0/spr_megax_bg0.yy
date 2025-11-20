@@ -19,6 +19,7 @@
   "height":64,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"47aee918-8b49-49e2-9de1-fef0b061aa05","blendMode":3,"displayName":"Layer 1","isLocked":false,"name":"47aee918-8b49-49e2-9de1-fef0b061aa05","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"2f79fcd7-a7ea-4413-8fe2-7a8e69da25b6","blendMode":0,"displayName":"default","isLocked":false,"name":"2f79fcd7-a7ea-4413-8fe2-7a8e69da25b6","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_megax_bg0",

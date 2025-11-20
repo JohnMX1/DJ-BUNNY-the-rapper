@@ -2,7 +2,7 @@ if global.song_started = true {
 	sus = time_bpm_to_seconds(global.bpm);
 	sas++;
 	if sas>= sus*60 {
-		look_dist -= 50;
+		//look_dist -= 50;
 		sas = 0;
 	}
 }

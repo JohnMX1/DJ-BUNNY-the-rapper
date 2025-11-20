@@ -1,4 +1,3 @@
-#region camera
 draw_clear(c_blue);
 
 shader_set(shd_basic_3d_stuff);
@@ -20,6 +19,6 @@ camera_apply(camera);
 
 gpu_set_tex_repeat(true);
 // Everything must be drawn after the 3D projection has been set
-vertex_submit(vbuffer, pr_trianglelist, sprite_get_texture(spr_grass, 0));
+vertex_submit(vbuffer, pr_trianglelist, sprite_get_texture(spr_load, 0));
 
 shader_reset();
